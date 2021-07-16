@@ -11,7 +11,7 @@ int pNb = 0; //  Declaring and initializing positive numbers = 0
 int nNb = 0; //  Declaring and initializing negative numbers = 0
 
 // For loop
-for ( i = 0; i <=5; i++)
+for ( i = 0; i <5; i++)
 {
     printf("Enter a number : ");
     scanf("%d", &number);
