@@ -6,15 +6,15 @@
 int main() {
 
 int k;
-float number;
+double number;
 int pNb = 0;
-float average;
-float sum = 0;
+double average;
+double sum = 0;
 
 for ( k = 0; k <5; k++)
 {
     printf("Enter a number : ");
-    scanf("%f", &number);
+    scanf("%lf", &number);
     if (number > 0)
     {
         pNb++;
@@ -23,6 +23,6 @@ for ( k = 0; k <5; k++)
 }
 average = sum/ pNb;
 printf("There is %d positive numbers\n", pNb);
-printf("The average of all positive values is %f : ", average); 
+printf("The average of all positive values is %lf : ", average); 
 return 0;
 }
